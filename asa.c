@@ -202,7 +202,7 @@ static void
 copy_file(FILE *fp)
 {
     str line;
-    static first_line = 1;
+    static int first_line = 1;
 
     while ((line.len=readline(fp, &(line.chr))))
     {
