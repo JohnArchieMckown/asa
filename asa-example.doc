@@ -1,0 +1,14 @@
+1____________________
++This is a	test.
+ Another test for understriking.
++                 _____________
+0This should be preceded by a double newline.
+1Start a new page
+ This is bold.
++        bold
+         bold
++Another bold attempt.
+ Hmm... sorry, less cannot mix bold and understriking.
++                              bold and
++                                   ___ _____________
+ Nothing special here...
