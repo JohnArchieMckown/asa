@@ -224,6 +224,13 @@ copy_file(FILE *fp)
 	    add_line(line);
 	    break;
 
+	case '-':
+	    flush();
+	    new_line();
+	    new_line();
+	    add_line(line);
+	    break;
+
 	case '1':
 	    flush();
 	    if (! first_line)
